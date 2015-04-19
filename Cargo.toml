@@ -2,3 +2,9 @@
 name = "rusty-compiler"
 version = "0.1.0"
 authors = ["Nils Bore <nilsbore@gmail.com>"]
+
+[dependencies]
+getopts = "*"
+regex = "*"
+regex_macros = "*"
+rustc-serialize = "*"
